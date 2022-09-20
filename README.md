@@ -1,10 +1,14 @@
 # initialize-project
 
-Usual steps to starting a project
+## Usual steps to starting a project
 
 1. Go to github, add a new repository
 2. Add a README.md and a .gitignore that ignores Node
-3. Run npm init -y to generate a package.json file
+3. Run 
+```
+npm init -y 
+```
+to generate a package.json file
 4. Run npm install webpack webpack-cli --save-dev to install webpack
 5. Create a src and dist directory
 6. Create an index.js file in src
@@ -15,7 +19,7 @@ Usual steps to starting a project
 11. You can copy the usual code from index.js and style.css in src, and index.html in dist. (Files are still being edited)
 12. Run npm run watch
 
-Optional step of adding Jest
+## Optional steps of adding Jest 
 
 1. Run npm install --save-dev jest
 2. Add this section to your package.json
@@ -25,7 +29,7 @@ Optional step of adding Jest
   }
 }
 
-Optional step of adding babel
+## Optional step of adding babel
 
 1. Run npm install -D babel-loader @babel/core @babel/preset-env webpack
 
@@ -55,14 +59,14 @@ module.exports = {
   presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
 };
 
-Optional step of adding eslint but idc I kinda hate it
+## Optional step of adding eslint but idc I kinda hate it
 
 1. Run npm install eslint --save-dev
 2. Run ./node_modules/.bin/eslint --init
 3. Idk follow these steps: https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
 4. Copy the ".eslintrc.json" file in the to-do repo
 
-Deploying a subfolder to github pages (assuming that the folder is called "dist")
+-- Deploying a subfolder to github pages (assuming that the folder is called "dist") --
 
 1. Remove dist directory from the .gitignore file
 2. Run git add dist
