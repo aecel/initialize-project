@@ -2,8 +2,14 @@
 
 ## Usual steps to starting a project
 
-1. Go to github, add a new repository
-2. Add a README.md and a .gitignore that ignores Node
+1. Go to github and add a new repository. Add a README.md and a .gitignore that ignores Node.
+2. Copy the code SSH and run these while in your main repo folder
+
+```
+git clone (paste your link here)
+code (your new repo folder here)
+```
+
 3. Run this to generate a package.json file
 
 ```
@@ -62,7 +68,7 @@ npm install --save-dev style-loader css-loader
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch"
-  },
+},
 ```
 
 11. You can copy the usual code from index.js and style.css in src, and index.html in dist. (Files are still being edited)
