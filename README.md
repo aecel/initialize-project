@@ -4,11 +4,12 @@
 
 1. Go to github, add a new repository
 2. Add a README.md and a .gitignore that ignores Node
-3. Run 
+3. Run this to generate a package.json file
 ```
 npm init -y 
 ```
-to generate a package.json file
+
+
 4. Run npm install webpack webpack-cli --save-dev to install webpack
 5. Create a src and dist directory
 6. Create an index.js file in src
