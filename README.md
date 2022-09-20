@@ -151,7 +151,7 @@ npm install eslint --save-dev
 3. Idk follow these steps: https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
 4. Copy the ".eslintrc.json" file in the to-do repo
 
--- Deploying a subfolder to github pages (assuming that the folder is called "dist") --
+## Deploying a subfolder to github pages (assuming that the folder is called "dist")
 
 1. Remove dist directory from the .gitignore file
 2. Run these
