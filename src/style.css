@@ -21,13 +21,13 @@ body {
 }
 
 /* Usual background, change the URL */
-html {
+/* html {
   background: url(./images/bread-bg.jpg) no-repeat center center fixed;
   background-size: cover;
-  /* overflow: hidden;
+  overflow: hidden;
     background-position: center;
-    background-repeat: no-repeat; */
-}
+    background-repeat: no-repeat;
+} */
 
 /* Usual header */
 header {
