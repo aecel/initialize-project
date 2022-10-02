@@ -25,7 +25,22 @@ code ./{name of your project/repo}
 git remote add origin <url>
 ```
 
-6. Start doing your project. When you want to commit/push to github, run these
+Example:
+
+```
+git remote add origin git@github.com:aecel/memory-game.git
+```
+
+6. For your first commit/push:
+
+```
+git branch -M main
+git add .
+git commit -m "{Your commit message here}"
+git push -u origin main
+```
+
+7. Start doing your project. When you want to commit/push to github, run these
 
 ```
 git add .
