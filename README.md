@@ -167,3 +167,16 @@ git add dist
 git commit -m "Initial dist subtree commit"
 git subtree push --prefix dist origin gh-pages
 ```
+
+## More git commands
+
+1. Shows which branch you're in. Shows modified files that are staged or not staged.
+```
+git status
+```
+
+2. Shows info about your commits
+```
+git log
+```
+
